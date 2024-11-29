@@ -10,11 +10,24 @@
     <h1 id="title">Marathon Finder!</h1>
     <p id="description">Get those legs moving!<br>
     Find a marathon near you today!</p>
-    <form id="survey-form">
-        <input type="text" id="name" />
-        <input type="email" id="email" />
-        <input type="number" id="number" min="18" max="100" />
-        <select name="" id=""></select>
-    </form>
+    <div id="form-container">
+        <form id="survey-form">
+            <div id="userinput-container">
+                <label id='name-label'>Name</label><br><input type="text" id="name" /><br>
+                <label id="email-label">Email</label><br><input type="email" id="email" /><br>
+                <label id="number-label">Age</label><br><input type="number" id="number" min="18" max="100" /><br>
+                <label id="state-label">Select Your State: </label><select name="state-label" id=""></select><br>
+            </div>
+            <p id="choose-marathon">Choose a marathon type</p>
+            <div id="radio-container">
+                <input id="allM" type="radio" name="radio-button"><label for="allM">All Marathons</label><br>
+                <input id="5KM" type="radio" name="radio-button"><label for="5KM">5K run</label><br>
+                <input id="halfM" type="radio" name="radio-button"><label for="halfM">Half Marathon (10-15M)</label><br>
+                <input id="fM" type="radio" name="radio-button"><label for="fullM">Full Marathon (25-50M)</label><br>
+                <input id="intenseM" type="radio" name="radio-button"><label for="intenseM">Intense (up to 100M)</label><br>
+                <input id="relay" type="radio" name="radio-button"><label for="relay">Relay (All distances)</label><br>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
