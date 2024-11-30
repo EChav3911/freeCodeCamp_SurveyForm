@@ -1,0 +1,30 @@
+body {
+    background-color: bisque;
+}
+
+.i-block {
+    display: inline-block;
+    width: 25%;
+    margin: 0;
+    font-size: initial; /*resets font size if needed*/
+}
+
+.noFontSize {
+    font-size: 0;
+}
+
+#survey-form {
+    width: 500px;
+    height: 750px;
+    padding: 15px;
+    border: 5px double black;
+}
+
+#title, #description {
+    text-align: center;
+}
+
+#form-container {
+    width: 500px;
+    margin: 0 auto;
+}
